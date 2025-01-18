@@ -1,0 +1,3 @@
+# JavaScript Bug: Unexpected Null Return and Type Handling
+
+This repository demonstrates a common JavaScript bug related to null checks and type handling within functions.  The `foo` function aims to add two numbers but returns `null` if either input is `null`.  However, it lacks robust error handling for other input types like `undefined`, strings, or objects, which can lead to unexpected results or runtime errors. The solution demonstrates improved type checking and error handling.
